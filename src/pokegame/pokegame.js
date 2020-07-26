@@ -35,8 +35,8 @@ class Pokegame extends Component{
 
         return(
             <div>  
-                <Pokedex pokemon={hand1} scr={hand1Scr} res = {hand1Scr>hand2Scr}/>
-                <Pokedex pokemon={hand2} scr={hand2Scr} res = {hand2Scr>hand1Scr}/>
+                <Pokedex pokemon={hand1} scr={hand1Scr} res = {hand1Scr>hand2Scr} player={1}/>
+                <Pokedex pokemon={hand2} scr={hand2Scr} res = {hand2Scr>hand1Scr} player={2}/>
             </div>
         );
     }

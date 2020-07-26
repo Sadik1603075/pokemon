@@ -7,4 +7,35 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    height: 40%;
+}
+.Pokedex-text
+{
+    height: 5%;
+    text-align: center;
+    color: green;
+    border: 1px solid #eceff1;
+    padding: 2px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 12%;
+    background-color:#eceff1;
+    left: 50%;
+    right: 50%;
+    margin-left: 45%;
+}
+.Pokedex-text1
+{
+    height: 5%;
+    text-align: center;
+    color: red;
+    border: 1px solid #eceff1;
+    padding: 2px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 12%;
+    background-color:#eceff1;
+    left: 50%;
+    right: 50%;
+    margin-left: 45%;
 }

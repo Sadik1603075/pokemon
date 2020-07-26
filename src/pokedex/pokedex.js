@@ -16,10 +16,19 @@ class Pokedex extends Component{
              exp = {p.exp}
             />
         });
+        let text="Wining Hand";
+        let classes="Pokedex-text";
+        if(!this.props.res) 
+        {
+            text="Lossing Hand";
+            classes="Pokedex-text1";
+        }
+       
+
 
         return(
             <div className="Pokedex">
-                <p> Total Experience : {this.props.scr} <br/> {this.props.res?"Winner" : "Looser"}</p>
+                <p className={classes}> <h3>{text}</h3> Total Experience : {this.props.scr}</p>
                <div className="Pokedex-card">{pokedex}</div> 
             </div>
         );
